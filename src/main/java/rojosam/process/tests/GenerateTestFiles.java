@@ -11,7 +11,7 @@ public class GenerateTestFiles {
     public static void main(String[] args) {
 
         int bigFilesBytes = 500 * 1024 *1024;
-        int oneBlockFilesBytes = 128 * 1024 * 1024;
+        int oneBlockFilesBytes = 128 * 1024 * 1024 - 2000; // To avoid the last line overflow the block size
         int smallFilesBytes = 1000;
         int multipleFiles = 1000;
 
