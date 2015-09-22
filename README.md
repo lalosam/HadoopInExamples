@@ -2,7 +2,7 @@
 
 This repo include several versions of the WordCount MapReduce job using different strategies/features to exemplify their use.
 
-The idea is to keep things simple and only add a one new thing in each example. The jobs weren't designed to be optimals and obviously there are jobs that perform better that others. Not all the "configurations" could be the best working with the same challenge. But that is something that may be you want to see, the difference in the performance using different strategies.
+The idea is to keep things simple and only add a one new thing in each example. The jobs weren't designed to be optimals and obviously there are jobs that perform better than others. Not all the "configurations" could be the best working with the same challenge. But that is something that may be you want to see, the difference in the performance using different strategies.
 
 The project include a main class that generate diferent input scenarios, like one big file (500 MB in one file) or a lot of small files (500 MB in 1000 files). The files are generated in the default user file in Hadoop, "/user/<username>" by default. The class is: https://github.com/lalosam/HadoopInExamples/blob/master/src/main/java/rojosam/process/tests/GenerateTestFiles.java
 
