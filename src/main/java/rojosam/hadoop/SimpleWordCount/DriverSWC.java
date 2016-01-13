@@ -24,7 +24,7 @@ public class DriverSWC extends Configured implements Tool {
 
     @Override
     public int run(String[] args) throws Exception {
-        Configuration conf = new Configuration();
+        Configuration conf = getConf();
         Job job = Job.getInstance(conf, "Simple Word Count");
         job.setJarByClass(DriverSWC.class);
         job.setMapperClass(MapperSWC.class);

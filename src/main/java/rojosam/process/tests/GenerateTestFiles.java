@@ -29,5 +29,12 @@ public class GenerateTestFiles {
         CreateTestsFiles.withNumbers(0, 1000, 10, bigFilesBytes, "\t", "\n", "NumberTextFile.txt");
         CreateTestsFiles.withNumbers(0, 1000, 10, oneBlockFilesBytes, "\t", "\n", "NumberTextFileOneBlock.txt");
 
+        /*
+        System.out.println("Generating Zip files. . .");
+        CreateTestsFiles.localWithWords(10, 1100000, "\t", "\n", "WordsTextFile50MB.zip");
+        CreateTestsFiles.localWithWords(10, 11000000, "\t", "\n", "WordsTextFile500MB.zip");
+        CreateTestsFiles.localWithWords(10, 22000000, "\t", "\n", "WordsTextFile1GB.zip");
+        CreateTestsFiles.localWithWords(10, 66000000, "\t", "\n", "WordsTextFile3GB.zip");
+        */
     }
 }
